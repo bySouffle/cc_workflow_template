@@ -1,0 +1,10 @@
+consul:
+  address: 127.0.0.1:8500
+  scheme: http
+  health_check: true
+  health_check_url: /v1/health_check
+  health_check_timeout: 10
+endpoint:
+  address: 127.0.0.1:8500
+  scheme: http
+  discovery: template

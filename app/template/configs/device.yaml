@@ -1,0 +1,5 @@
+ptz:
+  IP: 127.0.0.1
+  Port: 6800
+  username: admin
+  passwd: admin
